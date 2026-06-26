@@ -41,48 +41,43 @@ function computePrice(tier: Tier, cycle: Cycle, currency: Currency): string {
 /* ── Tier content (non-price data — static, no mutations needed) ── */
 const TIER_META = {
   starter: {
-    label:    'Starter',
-    tagline:  'Perfect for small teams and side projects.',
+    label:    'Plant Operator',
+    tagline:  'Essential knowledge access for floor operations.',
     features: [
-      '5 active pipelines',
-      '50K events / month',
-      '3 connectors',
-      'Community support',
-      '99.5% uptime SLA',
+      'Instant SOP retrieval',
+      'Basic natural language search',
+      'Mobile-optimized viewing',
+      'Asset manual access',
+      'Standard support',
     ],
     highlighted: false,
-    ctaLabel: 'Get started free',
+    ctaLabel: 'Get Operator Access',
   },
   pro: {
-    label:    'Pro',
-    tagline:  'For teams shipping production-grade automations.',
+    label:    'Maintenance Engineer',
+    tagline:  'Advanced predictive maintenance and real-time monitoring.',
     features: [
-      'Unlimited pipelines',
-      '5M events / month',
-      '50+ connectors',
-      'Priority support (4h SLA)',
-      '99.9% uptime SLA',
-      'Adaptive model routing',
-      'Audit logs & compliance',
+      'Intelligent maintenance alerts',
+      'Failure prediction models',
+      'Real-time asset health dashboard',
+      'All Plant Operator features',
+      'Priority technical support',
     ],
     highlighted: true,
-    ctaLabel: 'Start Pro trial',
+    ctaLabel: 'Start Engineer Trial',
   },
   enterprise: {
-    label:    'Enterprise',
-    tagline:  'Custom scale, dedicated infra, white-glove onboarding.',
+    label:    'Enterprise / Manager',
+    tagline:  'Complete control and integration for Operations Managers.',
     features: [
-      'Unlimited everything',
-      'Custom event quotas',
-      '200+ connectors',
-      'Dedicated Slack channel',
-      '99.99% uptime SLA',
-      'Custom model routing rules',
-      'SOC2 + GDPR audit package',
-      'On-prem deployment option',
+      'Unlimited asset integrations',
+      'Custom ERP/MES connectors',
+      'Digital Twin & IoT support',
+      'Advanced RBAC & Audit logs',
+      'Dedicated onboarding manager',
     ],
     highlighted: false,
-    ctaLabel: 'Contact sales',
+    ctaLabel: 'Contact Sales',
   },
 };
 
@@ -431,11 +426,11 @@ export default function PricingSection() {
         <div className="container">
           {/* Header */}
           <header className="pricing-header reveal">
-            <span className="section-eyebrow" aria-hidden="true">Pricing</span>
+            <span className="section-eyebrow" aria-hidden="true">Role-Based Access</span>
             <h2 id="pricing-heading">
-              Simple, transparent pricing.
+              Intelligent plans for every role.
             </h2>
-            <p>Scale up or down at any time. No hidden fees. Cancel anytime.</p>
+            <p>Empower your workforce with targeted access. Scale seamlessly as your industrial footprint grows.</p>
           </header>
 
           {/* Controls */}

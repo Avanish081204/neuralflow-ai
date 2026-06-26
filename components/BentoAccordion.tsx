@@ -11,55 +11,55 @@ const FEATURES = [
   {
     id: 0,
     icon: PipelineIcon,
-    title: 'Neural Pipeline Orchestration',
+    title: 'Unified Asset Repository',
     description:
-      'Automate multi-step AI workflows end-to-end with a visual drag-and-drop editor. Chain models, transformations, and APIs into a single declarative pipeline.',
-    accent: '#6C63FF',
+      'Centralize storage for all your industrial assets. Maintain comprehensive asset profiles containing specifications, maintenance history, and digital documentation in one accessible hub.',
+    accent: '#ff3b8f',
     size: 'large', // bento span
   },
   {
     id: 1,
     icon: DataFusionIcon,
-    title: 'Real-Time Data Fusion',
+    title: 'AI-Powered Knowledge Search',
     description:
-      'Merge live data streams from 200+ connectors — databases, webhooks, APIs — with sub-second latency and zero data loss guarantees.',
-    accent: '#00D4FF',
+      'Ask questions in natural language like "What is the maintenance procedure for Pump A?" and let our AI engine instantly retrieve relevant manuals and SOPs.',
+    accent: '#ff8a00',
     size: 'small',
   },
   {
     id: 2,
     icon: ModelRoutingIcon,
-    title: 'Adaptive Model Routing',
+    title: 'Intelligent Maintenance',
     description:
-      'Automatically select the best-fit LLM per task based on cost, latency, and performance benchmarks. Switch models mid-flow without redeployment.',
-    accent: '#8B84FF',
+      'Analyze operational data to generate preventive maintenance suggestions, failure prediction indicators, and optimal scheduling recommendations.',
+    accent: '#00f0ff',
     size: 'small',
   },
   {
     id: 3,
     icon: WebhookIcon,
-    title: 'Zero-Latency Webhooks',
+    title: 'Real-Time Dashboard',
     description:
-      'Process webhook events in under 10ms at any scale. Guaranteed delivery with automatic retries, dead-letter queues, and real-time monitoring dashboards.',
-    accent: '#00D4FF',
+      'Monitor operational metrics, visualize asset health, and track maintenance status with a real-time, comprehensive analytics dashboard.',
+    accent: '#ff3b8f',
     size: 'small',
   },
   {
     id: 4,
     icon: AuditIcon,
-    title: 'Audit & Compliance Engine',
+    title: 'Role-Based Access',
     description:
-      'SOC2 Type II and GDPR-ready logging, tracing, and access control — built directly into every pipeline step. Export reports in one click.',
-    accent: '#22C55E',
+      'Customized and secure access controls tailored for Plant Operators, Maintenance Engineers, Operations Managers, and Administrators.',
+    accent: '#ff8a00',
     size: 'small',
   },
   {
     id: 5,
     icon: DeployIcon,
-    title: 'One-Click Deployment',
+    title: 'Future-Ready Architecture',
     description:
-      'Ship automations to AWS, GCP, Azure, or your own infra in a single action. Environment-aware config management handles the rest.',
-    accent: '#6C63FF',
+      'Built to scale seamlessly. Ready for next-generation industrial integrations including IoT live sensor connectivity and Digital Twin predictive systems.',
+    accent: '#00f0ff',
     size: 'large',
   },
 ] as const;
@@ -364,14 +364,14 @@ export default function BentoAccordion() {
         <div className="container">
           {/* Section header */}
           <header className="features-header reveal">
-            <span className="section-eyebrow" aria-hidden="true">Core Features</span>
+            <span className="section-eyebrow" aria-hidden="true">Key Features</span>
             <h2 id="features-heading">
-              Everything your AI stack needs.<br />
-              <span className="gradient-text">Nothing it doesn't.</span>
+              Everything your enterprise needs.<br />
+              <span className="gradient-text">Connected intelligently.</span>
             </h2>
             <p>
-              Six production-grade capabilities, built as a unified platform —
-              not a patchwork of disconnected tools.
+              Six core capabilities that transform fragmented repositories into 
+              a unified, scalable ecosystem for industrial excellence.
             </p>
           </header>
 

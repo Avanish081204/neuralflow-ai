@@ -1,10 +1,10 @@
 import LogoSVG from './svgs/LogoSVG';
 
 const FOOTER_LINKS = {
-  Product: ['Features', 'Pricing', 'Changelog', 'Roadmap', 'Status'],
-  Developers: ['Documentation', 'API Reference', 'SDKs', 'GitHub', 'Community'],
-  Company: ['About', 'Blog', 'Careers', 'Press Kit', 'Contact'],
-  Legal: ['Privacy Policy', 'Terms of Service', 'Cookie Policy', 'Security'],
+  Platform: ['Unified Assets', 'Knowledge Search', 'Maintenance', 'Dashboard'],
+  Solutions: ['Manufacturing', 'Energy', 'Aviation', 'IoT Integration', 'Digital Twins'],
+  Company: ['About Us', 'Case Studies', 'Partners', 'Contact'],
+  Legal: ['Privacy Policy', 'Terms of Service', 'Security'],
 };
 
 function GithubIcon() {
@@ -212,7 +212,10 @@ export default function Footer() {
                 NeuralFlow<span style={{ color: 'var(--color-primary)' }}> AI</span>
               </a>
               <p className="footer-brand-desc">
-                Intelligent data automation for teams that move fast and ship smart.
+                Intelligent data automation and knowledge retrieval for industries that build the future.
+                <br /><br />
+                <strong>Team NeuralFlow AI</strong><br />
+                Avanish Shukla
               </p>
               <nav className="footer-social" aria-label="Social media links">
                 <a href="https://github.com" className="footer-social-link" aria-label="GitHub" target="_blank" rel="noopener noreferrer">

@@ -4,47 +4,47 @@ const TESTIMONIALS = [
   {
     id: 1,
     name: 'Priya Agarwal',
-    role: 'Head of Data Engineering',
-    company: 'Razorpay',
+    role: 'Operations Manager',
+    company: 'Tata Steel',
     avatar: 'PA',
-    avatarColor: '#6C63FF',
+    avatarColor: '#ff3b8f',
     quote:
-      'NeuralFlow cut our pipeline build time from weeks to hours. The adaptive model routing alone saved us $40K in monthly LLM costs.',
+      'NeuralFlow completely transformed how our floor engineers access SOPs. What used to take 20 minutes of digging through manuals now takes seconds with natural language search.',
     rating: 5,
   },
   {
     id: 2,
     name: 'Marcus Chen',
-    role: 'CTO',
-    company: 'Stackline',
+    role: 'Maintenance Engineer',
+    company: 'Siemens Energy',
     avatar: 'MC',
-    avatarColor: '#00D4FF',
+    avatarColor: '#ff8a00',
     quote:
-      'We migrated from a fragile Airflow setup to NeuralFlow in a weekend. It handles 8M events a day without breaking a sweat.',
+      'The intelligent maintenance recommendations accurately predicted a pump failure two weeks before it happened, saving us tens of thousands in unexpected downtime.',
     rating: 5,
   },
   {
     id: 3,
     name: 'Léa Fontaine',
-    role: 'ML Platform Lead',
-    company: 'Dataiku',
+    role: 'Plant Administrator',
+    company: 'Airbus',
     avatar: 'LF',
-    avatarColor: '#8B84FF',
+    avatarColor: '#00f0ff',
     quote:
-      'The compliance engine was the deciding factor for us. SOC2 audit logs, GDPR controls, and zero extra configuration. It just works.',
+      'Having a unified asset repository means we no longer lose crucial institutional knowledge when senior technicians retire. It is a game-changer for our workflow.',
     rating: 5,
   },
 ];
 
 const LOGOS = [
-  'Razorpay', 'Stackline', 'Dataiku', 'Airbus', 'Notion', 'Stripe', 'Figma', 'Linear',
+  'Tata Steel', 'Siemens', 'Airbus', 'L&T', 'Reliance', 'Bosch', 'GE Aviation', 'Honeywell',
 ];
 
 const STATS = [
-  { value: '10M+',   label: 'Automations run daily'  },
-  { value: '99.9%',  label: 'Platform uptime SLA'    },
-  { value: '200+',   label: 'Native connectors'      },
-  { value: '4.9/5',  label: 'Average customer rating' },
+  { value: '30%',   label: 'Reduction in Maintenance Costs'  },
+  { value: '10x',  label: 'Faster Knowledge Retrieval'    },
+  { value: '99%',   label: 'Asset Uptime & Utilization'      },
+  { value: '0',  label: 'Data Silos Remaining' },
 ];
 
 export default function SocialProof() {
@@ -212,9 +212,9 @@ export default function SocialProof() {
         <div className="container">
           {/* Header */}
           <header className="social-header reveal">
-            <span className="section-eyebrow" aria-hidden="true">Social Proof</span>
+            <span className="section-eyebrow" aria-hidden="true">Proven Impact</span>
             <h2 id="social-heading">
-              Trusted by teams moving <span className="gradient-text">fast</span>.
+              Trusted by modern <span className="gradient-text">industries</span>.
             </h2>
           </header>
 

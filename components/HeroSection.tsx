@@ -243,21 +243,21 @@ export default function HeroSection() {
             <div className="hero-badge">
               <span className="hero-badge-inner">
                 <span className="hero-badge-dot" />
-                Now in public beta — v2.0
+                PS 8 – AI for Industrial Knowledge Intelligence
               </span>
             </div>
 
             {/* H1 */}
             <h1 className="hero-h1 hero-h1-text">
-              Orchestrate AI.<br />
-              <span className="hero-h1-line2">At the speed of data.</span>
+              Industrial Knowledge Intelligence.<br />
+              <span className="hero-h1-line2">The Unified Asset Brain.</span>
             </h1>
 
             {/* Subheading */}
             <p className="hero-sub hero-sub-text">
-              NeuralFlow AI automates your most complex data workflows — merging
-              200+ connectors, routing models intelligently, and deploying to any
-              cloud in a single click. No code. No limits.
+              Centralize industrial knowledge, asset information, and operational
+              intelligence into a single accessible ecosystem to reduce downtime,
+              improve productivity, and enhance decision-making.
             </p>
 
             {/* CTAs */}
@@ -274,18 +274,18 @@ export default function HeroSection() {
             {/* Stats */}
             <div className="hero-stats hero-stats-group" aria-label="Platform statistics">
               <div className="hero-stat">
-                <span className="hero-stat-num">10M+</span>
-                <span className="hero-stat-label">Automations Run</span>
+                <span className="hero-stat-num">-30%</span>
+                <span className="hero-stat-label">Reduced Downtime</span>
               </div>
               <div className="stat-sep" aria-hidden="true" />
               <div className="hero-stat">
-                <span className="hero-stat-num">99.9%</span>
-                <span className="hero-stat-label">Uptime SLA</span>
+                <span className="hero-stat-num">10x</span>
+                <span className="hero-stat-label">Faster Retrieval</span>
               </div>
               <div className="stat-sep" aria-hidden="true" />
               <div className="hero-stat">
-                <span className="hero-stat-num">4.9★</span>
-                <span className="hero-stat-label">Avg. Rating</span>
+                <span className="hero-stat-num">99%</span>
+                <span className="hero-stat-label">Asset Utilization</span>
               </div>
             </div>
           </div>

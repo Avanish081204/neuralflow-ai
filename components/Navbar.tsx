@@ -1,17 +1,19 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import LogoSVG from './svgs/LogoSVG';
+import AuthModal from './AuthModal';
 
 const NAV_LINKS = [
-  { label: 'Features',  href: '#features'  },
-  { label: 'Pricing',   href: '#pricing'   },
-  { label: 'About',     href: '#about'     },
-  { label: 'Docs',      href: '#docs'      },
+  { label: 'Features',      href: '#features' },
+  { label: 'Impact',        href: '#about'    },
+  { label: 'Access Plans',  href: '#pricing'  },
 ];
 
 export default function Navbar() {
   const navRef = useRef<HTMLElement>(null);
+  const [isAuthOpen, setIsAuthOpen] = useState(false);
+  const [authMode, setAuthMode] = useState<'signin' | 'signup'>('signin');
 
   useEffect(() => {
     const nav = navRef.current;
@@ -141,11 +143,29 @@ export default function Navbar() {
 
           {/* CTA group */}
           <div className="nav-cta-group">
-            <button className="nav-signin" type="button">Sign in</button>
-            <button className="nav-btn" type="button">Start Free Trial</button>
+            <button 
+              className="nav-signin" 
+              type="button" 
+              onClick={() => { setAuthMode('signin'); setIsAuthOpen(true); }}
+            >
+              Sign in
+            </button>
+            <button 
+              className="nav-btn" 
+              type="button"
+              onClick={() => { setAuthMode('signup'); setIsAuthOpen(true); }}
+            >
+              Start Free Trial
+            </button>
           </div>
         </nav>
       </header>
+      
+      <AuthModal 
+        isOpen={isAuthOpen} 
+        onClose={() => setIsAuthOpen(false)} 
+        initialMode={authMode} 
+      />
     </>
   );
 }
